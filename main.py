@@ -7,23 +7,23 @@ items = ['rock','paper','scissors']
 # Function area
 def check_result(user,system):
     if user == 'rock' and system == 'rock':
-        print('Try again, system answer:', system)
+        print('Tie, system answer:', system)
     elif user == 'rock' and system == 'paper':
-        print('You lose, system answer:', system)
+        print('Lose, system answer:', system)
     elif user == 'rock' and system == 'scissors':
-        print('You win, system answer:', system)
+        print('Win, system answer:', system)
     elif user == 'paper' and system == 'paper':
-        print('Try again, system answer:', system)
+        print('Tie, system answer:', system)
     elif user == 'paper' and system == 'rock':
-        print('You win, system answer:', system)
+        print('Win, system answer:', system)
     elif user == 'paper' and system == 'scissors':
         print('You lose, system answer:', system)
     elif user == 'scissors' and system == 'scissors':
-        print('Try again, system answer:', system)
+        print('Tie, system answer:', system)
     elif user == 'scissors' and system == 'rock':
         print('You lose, system answer:', system)
     elif user == 'scissors' and system == 'paper':
-        print('You win, system answer:', system)
+        print('Win, system answer:', system)
     
 
 # Main area
